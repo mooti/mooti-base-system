@@ -1,0 +1,22 @@
+{
+    "name": "mooti/base-system",
+    "license": "GPL-2.0",
+    "type": "project",
+    "description": "Shell application for the Mooti ecosystem",
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mooti/mooti"
+        }
+    ],
+    "require": {
+        "mooti/mooti": "dev-master"
+    },
+    "require-dev": {},
+    "config": {
+        "bin-dir": "bin/vendor"
+    }
+}
